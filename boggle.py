@@ -3,6 +3,7 @@
 from random import choice
 import string
 
+# this is all starter code and does not need anything added.
 
 class Boggle():
 

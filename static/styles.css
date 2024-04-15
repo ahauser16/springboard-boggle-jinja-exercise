@@ -1,0 +1,165 @@
+/* this can be improved on for sure */
+:root {
+  --green-100: hsl(144, 100%, 95%);
+  --green-200: hsl(144, 100%, 81.25%);
+  --green-300: hsl(144, 100%, 67.5%);
+  --green-400: hsl(144, 100%, 53.75%);
+  --green-500: hsl(144, 100%, 40%);
+  --green-600: hsl(144, 100%, 35%);
+  --green-700: hsl(144, 100%, 30%);
+  --green-800: hsl(144, 100%, 25%);
+  --green-900: hsl(144, 100%, 20%);
+  
+  --success-button-background-gradientDark: hsl(144, 100%, 38%);
+  --success-button-background-gradientLight: hsl(144, 100%, 42%);
+  --success-button-font-color: var(--green-100);
+  --success-button-shadow-color: var(--green-900);
+  --success-button-border-color: var(--green-100);
+  --success-button-background-gradientDark-hover: hsl(144, 100%, 35%);
+  --success-button-background-gradientLight-hover: hsl(144, 100%, 45%);
+  --success-button-inner-outline-color-focus: var(--green-100);
+  --success-button-outer-outline-color-focus: var(--green-900);
+  --success-button-font-color-active: var(--green-900);
+
+  --yellow-100: hsl(38, 99%, 95%);
+  --yellow-200: hsl(38, 99%, 83%);
+  --yellow-300: hsl(38, 99%, 71%);
+  --yellow-400: hsl(38, 99%, 59%);
+  --yellow-500: hsl(38, 99%, 47%);
+  --yellow-600: hsl(38, 99%, 40.25%);
+  --yellow-700: hsl(38, 99%, 33.5%);
+  --yellow-800: hsl(38, 99%, 26.75%);
+  --yellow-900: hsl(38, 99%, 20%);
+
+  --warning-button-background-gradientDark: hsl(38, 99%, 45%);
+  --warning-button-background-gradientLight: hsl(38, 99%, 49%);
+  --warning-button-font-color: var(--yellow-100);
+  --warning-button-shadow-color: var(--yellow-900);
+  --warning-button-border-color: var(--yellow-100);
+  --warning-button-background-gradientDark-hover: hsl(38, 99%, 42%);
+  --warning-button-background-gradientLight-hover: hsl(38, 99%, 52%);
+  --warning-button-inner-outline-color-focus: var(--yellow-100);
+  --warning-button-outer-outline-color-focus: var(--yellow-900);
+  --warning-button-font-color-active: var(--yellow-900);
+
+  --red-100: hsl(357, 82%, 95%);
+  --red-200: hsl(357, 82%, 84.25%);
+  --red-300: hsl(357, 82%, 73.5%);
+  --red-400: hsl(357, 82%, 62.75%);
+  --red-500: hsl(357, 82%, 52%);
+  --red-600: hsl(357, 82%, 44%);
+  --red-700: hsl(357, 82%, 36%);
+  --red-800: hsl(357, 82%, 28%);
+  --red-900: hsl(357, 82%, 20%);
+
+  --error-button-background-gradientDark: hsl(357, 82%, 50%);
+  --error-button-background-gradientLight: hsl(357, 82%, 54%);
+  --error-button-font-color: var(--red-100);
+  --error-button-shadow-color: var(--red-900);
+  --error-button-border-color: var(--red-100);
+  --error-button-background-gradientDark-hover: hsl(357, 82%, 47%);
+  --error-button-background-gradientLight-hover: hsl(357, 82%, 57%);
+  --error-button-inner-outline-color-focus: var(--red-100);
+  --error-button-outer-outline-color-focus: var(--red-900);
+  --error-button-font-color-active: var(--red-900);
+
+  --blue-100: hsl(220, 84%, 95%);
+  --blue-200: hsl(220, 84%, 84%);
+  --blue-300: hsl(220, 84%, 73%);
+  --blue-400: hsl(220, 84%, 62%);
+  --blue-500: hsl(220, 84%, 51%);
+  --blue-600: hsl(220, 84%, 43.25%);
+  --blue-700: hsl(220, 84%, 35.5%);
+  --blue-800: hsl(220, 84%, 27.75%);
+  --blue-900: hsl(220, 84%, 20%);
+
+  --info-button-background-gradientDark: hsl(220, 84%, 49%);
+  --info-button-background-gradientLight: hsl(220, 84%, 53%);
+  --info-button-font-color: var(--blue-100);
+  --info-button-shadow-color: var(--blue-900);
+  --info-button-border-color: var(--blue-100);
+  --info-button-background-gradientDark-hover: hsl(220, 84%, 46%);
+  --info-button-background-gradientLight-hover: hsl(220, 84%, 56%);
+  --info-button-inner-outline-color-focus: var(--blue-100);
+  --info-button-outer-outline-color-focus: var(--blue-900);
+  --info-button-font-color-active: var(--blue-900);
+
+  --grey-100: hsl(0, 0%, 90%);
+  --grey-200: hsl(0, 0%, 80%);
+  --grey-300: hsl(0, 0%, 70%);
+  --grey-400: hsl(0, 0%, 60%);
+  --grey-500: hsl(0, 0%, 50%);
+  --grey-600: hsl(0, 0%, 40%);
+  --grey-700: hsl(0, 0%, 30%);
+  --grey-800: hsl(0, 0%, 20%);
+  --grey-900: hsl(0, 0%, 10%);
+
+  --rem-base: 16px;
+  
+
+}
+
+body {
+  font-size: var(--rem-base);
+}
+
+#boggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2em;
+  margin-top: 2em;
+  padding: 1em;
+  border: 3px solid black;
+}
+
+#start-btn {
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.board {
+  border: solid 3px black;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 200%;
+  min-width: 600px;
+  max-width: 1000px;
+  aspect-ratio: 1;
+}
+
+.board td {
+  text-align: center;
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px dotted red;
+  font-size: 3em;
+  display: none;
+}
+
+.msg {
+  padding: 1em;
+}
+
+.msg.ok {
+  color: white;
+  background-color: green;
+}
+
+.msg.err {
+  color: white;
+  background-color: tomato;
+}
+
+.scoreTxt {
+  font-size: 2em;
+}

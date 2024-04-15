@@ -24,9 +24,9 @@ git clone https://github.com/yourusername/flask-boggle.git cd flask-boggle pip i
 
 A main focus of this exercise is on testing Flask. Make sure you write tests for all views you add to app.py.
 
-## Deployment
+## Deployment of Development Server
 
-Add additional notes about how to deploy this on a live system.
+Open your terminal, navigate to the directory containing your `app.py` file, and run the `export FLASK_APP=app.py` command.  After running this command, you can start your Flask application by running `flask run` in your terminal.  Remember to run `export FLASK_APP=app.py` every time you open a new terminal session, or add it to your shell's startup file (like `.bashrc` or `.bash_profile`) to set it automatically.
 
 ## Built With
 
